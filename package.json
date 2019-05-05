@@ -1,0 +1,13 @@
+{
+  "name": "NT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "tsc-watch --onSuccess \"node ./dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.1.2",
+    "typescript": "^3.4.5"
+  }
+}
